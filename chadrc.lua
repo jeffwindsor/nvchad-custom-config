@@ -1,10 +1,16 @@
 ---@type ChadrcConfig
 local M = {}
 
-M.ui = {
-  theme = 'gruvbox'
+M.plugins = 'custom.plugins'
+
+M.mappings = {
+  abc = {
+    n = {["<leader>q"] = {"<cmd>qa! <CR>", "Quit All"},},
+  }
 }
 
-M.plugins = "custom.plugins"
+M.ui = {
+  theme = 'gruvbox',
+}
 
 return M
