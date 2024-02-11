@@ -26,7 +26,7 @@ local plugins = {
         "json",
 
         -- dev personal
-        "pyhton",
+        "python",
         "scala",
         "haskell"
       },
