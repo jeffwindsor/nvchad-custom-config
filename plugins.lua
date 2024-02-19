@@ -33,6 +33,14 @@ local plugins = {
     },
   },
 
+  -- {
+  --   "epwalsh/obsidian.nvim",
+  --   version = "*",  -- recommended, use latest release instead of latest commit
+  --   lazy = true,
+  --   ft = "markdown",
+  -- },
+
+  -- { "folke/zen-mode.nvim" },
 }
 
 return plugins

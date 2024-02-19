@@ -10,7 +10,7 @@ M.mappings = {
 }
 
 M.ui = {
-  theme = 'jellybeans',
+  theme = 'nord',
 }
 
 return M
